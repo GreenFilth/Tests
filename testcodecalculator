@@ -1,0 +1,5 @@
+print ("This is a simple test calculator. Use numbers and operators +-*/ to calculate")
+print ("type:")
+while True: 
+    try: print(eval(input()))
+    except: print ("error, use numbers")
